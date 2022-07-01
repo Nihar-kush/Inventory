@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <div>
-      <form onSubmit={registerUser}>
+      <form onSubmit={registerUser} >
         <input
           type="text"
           value={name}
@@ -46,3 +46,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+//https://invmanage.netlify.app/
